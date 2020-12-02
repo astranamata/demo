@@ -1,0 +1,39 @@
+/* Η φόρμα του κουίζ */
+#quiz-wrap {
+    font-family: arial, sans-serif;
+  }
+  
+  /* Μορφοποίηση κάθε ερώτησης */
+  #quiz-wrap .question {
+    padding: 15px;
+    margin: 10px;
+    background: #f2f2f2;
+    border: 3px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  /* Ερωτήσεις */
+  #quiz-wrap h1 {
+    font-size: 22px;
+    margin: 5px 0;
+  }
+  
+  /* Επιλογές */
+  #quiz-wrap label {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  /* Κουμπί οριστικοποίησης απάντησης */
+  #quiz-wrap input[type=submit] {
+    background: #972121;
+    color: #fff;
+    padding: 10px;
+    border: 0;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
